@@ -34,7 +34,7 @@ client.login(process.env.BOT_TOKEN);
 
 
 
-const developers = ["419471939493429250","490927770143031296",""]
+const developers = ["480184422386237451","474329785871368192",""]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
